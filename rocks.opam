@@ -9,7 +9,8 @@ depends: [
   "ctypes" {>= "0.4.0"}
   "ctypes-foreign" {>= "0.4.0"}
   "core" {= "v0.17.1"}
-  "rocksdb_stubs" {= "10.2.1"}
+  "core_unix" {= "v0.17.1"}
+  "rocksdb_stubs" {= "10.5.1"}
   "ocamlformat" {with-dev-setup & >= "0.27.0"}
   "ocaml-lsp-server" {with-dev-setup & >= "1.18.0"}
 ]
